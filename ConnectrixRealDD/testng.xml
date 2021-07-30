@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+       <classes>
+       
+       
+       <class name="testcases.AccountTabTest">
+        <methods> 
+        <include name="Create_NewAccountConnectrix" />
+        <include name="Create_New_WON_Opp" />
+        <include name="Create_OPEN_Opp" />
+        <include name="Create_NewLostOppo" />
+         
+        
+       </methods>         
+       </class>
+        
+        
+       <!--   // commented
+       
+      <class name="testcases.OrderourneyTab">
+       <methods>
+        <include name="AddNewPOUploadPurchaseOrder" />
+        <include name="AddNewPOSelectFromItems" />
+        <include name="AddNewPoGenerateProformaInvoice" />
+        
+        <include name="Create_NewAccountConnectrix" />
+        <include name="Create_New_WON_Opp" />
+        <include name="Create_OPEN_Opp" />
+        <include name="Create_NewLostOppo" />
+        <include name="Create_OrderFROMWonOppnt" />
+        
+        <include name="verifyAccountDetails" />
+        <include name="verifyWONOpportunityDetails" />
+        <include name="verifyOPENOpportunityDetails" />
+        <include name="verifyLOSTOpportunityDetails" />
+        
+       </methods>         
+       </class>
+       
+       
+       
+       <class name="testcases.Receivables">
+       <methods>
+       <include name="VerifySalesPersonNameInReceivableSection" />
+       </methods>      
+      </class>
+      
+     // commented     -->    
+      
+      
+    </classes>
+    
+  </test> 
+</suite> 
